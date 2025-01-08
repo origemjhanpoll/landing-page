@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node"
+    "jsx": "react",
+    "moduleResolution": "node",
+    "paths": {
+      "react": [ "./node_modules/@types/react" ]
+    }
   }
 }
